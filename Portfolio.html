@@ -1,0 +1,1164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Durjoy Das | Electronics Engineer & IoT Developer</title>
+    <meta name="description" content="Portfolio of Durjoy Das, Electronics Engineer specializing in Embedded Systems, Power Electronics and IoT Development">
+    <meta name="keywords" content="Electronics Engineer, Embedded Systems, IoT Developer, Power Electronics, Machine Learning, RUET, Bangladesh">
+    <meta name="author" content="Durjoy Das">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="loading-spinner"></div>
+        <div class="loading-progress">
+            <div class="progress-bar"></div>
+            <span class="progress-text">0%</span>
+        </div>
+        <h3>Loading Portfolio</h3>
+    </div>
+
+    <!-- Navigation -->
+    <header class="sticky-header">
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <a href="#">
+                        <span class="logo-icon"><i class="fas fa-microchip"></i></span>
+                        <span class="logo-text">Durjoy Das</span>
+                    </a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#about"><i class="fas fa-user"></i> <span>About</span></a></li>
+                    <li><a href="#skills"><i class="fas fa-code"></i> <span>Skills</span></a></li>
+                    <li><a href="#projects"><i class="fas fa-project-diagram"></i> <span>Projects</span></a></li>
+                    <li><a href="#research"><i class="fas fa-book"></i> <span>Research</span></a></li>
+                    <li><a href="#achievements"><i class="fas fa-trophy"></i> <span>Achievements</span></a></li>
+                    <li><a href="#contact"><i class="fas fa-envelope"></i> <span>Contact</span></a></li>
+                </ul>
+                <div class="nav-right">
+                    <div class="theme-toggle">
+                        <input type="checkbox" id="dark-mode-toggle">
+                        <label for="dark-mode-toggle" class="toggle-label">
+                            <i class="fas fa-sun"></i>
+                            <i class="fas fa-moon"></i>
+                            <span class="toggle-ball"></span>
+                        </label>
+                    </div>
+                    <div class="hamburger">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" data-aos="fade-up">
+        <div class="container">
+            <div class="hero-content" data-aos="fade-right" data-aos-delay="100">
+                <div class="hero-badge">
+                    <span><i class="fas fa-graduation-cap"></i> Undergraduate Student</span>
+                </div>
+                <h1>Hello sir, I'm <span class="highlight">Durjoy Das</span></h1>
+                <h2 class="typing-text"> Power Electronics Researcher </h2>
+                <p>I'm passionate about developing innovative solutions in power electronics, embedded systems, and IoT. My work focuses on creating efficient, practical applications that bridge the gap between theoretical concepts and real-world implementation. Currently exploring the integration of machine learning with electronics for smarter systems.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn-primary pulse"><i class="fas fa-paper-plane"></i> Contact Me</a>
+                    <a href="#projects" class="btn-secondary"><i class="fas fa-laptop-code"></i> View Projects</a>
+                </div>
+                <div class="hero-social">
+                    <a href="https://www.facebook.com/durjoy.das.3950178" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/durjoy_o_das" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://x.com/DurjoyD31720430" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="https://t.me/yourusername" target="_blank" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+                </div>
+            </div>
+            <div class="hero-image" data-aos="fade-left" data-aos-delay="200">
+                <div class="image-wrapper">
+                    <img src="IMG-20230517-WA0087 (1).jpg" alt="Durjoy Das" loading="lazy">
+                    <div class="tech-icons">
+                        <i class="devicon-arduino-plain" data-tooltip="Arduino"></i>
+                        <i class="fas fa-brain" data-tooltip="Machine Learning"></i>
+                        <i class="devicon-python-plain" data-tooltip="Python"></i>
+                        <i class="fas fa-microchip" data-tooltip="Embedded Systems"></i>
+                        <i class="fas fa-bolt" data-tooltip="Power Electronics"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Scroll Down Indicator -->
+        <div class="scroll-down">
+            <a href="#about" class="scroll-link">
+                <span class="scroll-text">Scroll Down</span>
+                <span class="scroll-icon"><i class="fas fa-chevron-down"></i></span>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="title-icon"><i class="fas fa-user"></i></span>
+                <span>About Me</span>
+            </h2>
+            
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <h3>Who am I?</h3>
+                    <p>I'm a dedicated Electronics and Telecommunication Engineering student with expertise in embedded systems, IoT, and power electronics. My journey began with basic Arduino projects and has grown into developing sophisticated systems like IoT-based energy meters with power factor correction and voltage protection.</p>
+                    <p>I combine strong theoretical knowledge with hands-on implementation skills to create practical solutions. My experience as Class Representative has honed my leadership and communication abilities, while numerous workshops and projects have strengthened my technical competencies.</p>
+                    
+                    <div class="personal-info">
+                        <div class="info-item">
+                            <span class="info-label"><i class="fas fa-user-tag"></i> Name:</span>
+                            <span class="info-value">Durjoy Das</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label"><i class="fas fa-envelope"></i> Email:</span>
+                            <span class="info-value">ddurjoy867@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label"><i class="fas fa-graduation-cap"></i> Education:</span>
+                            <span class="info-value">BSc in ETE, RUET (2023-Present)</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label"><i class="fas fa-heart"></i> Interests:</span>
+                            <span class="info-value">Embedded Systems, IoT, Power Electronics, ML in Electronics</span>
+                        </div>
+                    </div>
+                    
+                    <div class="about-links">
+                        <a href="Durjoy_CV\CV.html" target="_blank" class="btn-primary">
+                            <i class="fas fa-eye"></i> View CV
+                        </a>
+                        <a href="#contact" class="btn-secondary">
+                            <i class="fas fa-envelope"></i> Contact Me
+                        </a>
+                    </div>
+                </div>
+                <div class="about-image" data-aos="fade-left">
+                    <div class="image-container">
+                        <img src="IMG_20250213_130400.jpg" alt="Durjoy Das" loading="lazy">
+                        <div class="experience-badge">
+                            <span class="years">2+</span>
+                            <span class="text">Years Experience</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Education Timeline -->
+            <div class="subsection" data-aos="fade-up">
+                <h3 class="subsection-title">
+                    <i class="fas fa-graduation-cap"></i> Education
+                </h3>
+                <div class="timeline">
+                    <div class="timeline-item" data-aos="fade-up">
+                        <div class="timeline-date">2023 - Present</div>
+                        <div class="timeline-content">
+                            <h4>BSc in Electronics and Telecommunication Engineering</h4>
+                            <p class="institution">Rajshahi University of Engineering & Technology (RUET)</p>
+                            <ul class="achievements">
+                                <li><i class="fas fa-star"></i> Current CGPA: 3.06/4.00</li>
+                                <li><i class="fas fa-book"></i> Relevant Coursework: Power Electronics, Signal & System, Opject Oriented Programming, Machine Learning</li>
+                                <li><i class="fas fa-project-diagram"></i> Projects: IoT-based Energy Meter, Voltage Protection System</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-aos="fade-up">
+                        <div class="timeline-date">2019 - 2021</div>
+                        <div class="timeline-content">
+                            <h4>Higher Secondary Certificate (HSC)</h4>
+                            <p class="institution">Dinajpur Govt. College</p>
+                            <ul class="achievements">
+                                <li><i class="fas fa-star"></i> GPA: 5.00/5.00 in Science</li>
+                                <li><i class="fas fa-atom"></i> Focused on Physics and Mathematics</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-aos="fade-up">
+                        <div class="timeline-date">2017 - 2019</div>
+                        <div class="timeline-content">
+                            <h4>Secondary School Certificate (SSC)</h4>
+                            <p class="institution">Birampur Pilot High School</p>
+                            <ul class="achievements">
+                                <li><i class="fas fa-star"></i> GPA: 5.00/5.00 in Science</li>
+                                <li><i class="fas fa-flask"></i> Developed early interest in Engineering</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Experience Timeline -->
+            <div class="subsection" data-aos="fade-up">
+                <h3 class="subsection-title">
+                    <i class="fas fa-briefcase"></i> Experience
+                </h3>
+                <div class="timeline">
+                    <div class="timeline-item" data-aos="fade-up">
+                        <div class="timeline-date">2023 - 2024</div>
+                        <div class="timeline-content">
+                            <h4>Class Representative</h4>
+                            <p class="institution">RUET ETE Department</p>
+                            <ul class="responsibilities">
+                                <li><i class="fas fa-check-circle"></i> Represented class of 60 students to faculty and administration</li>
+                                <li><i class="fas fa-check-circle"></i> Organized academic and extracurricular activities</li>
+                                <li><i class="fas fa-check-circle"></i> Facilitated communication between students and professors</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-aos="fade-up">
+                        <div class="timeline-date">Summer 2023</div>
+                        <div class="timeline-content">
+                            <h4>Workshop Participant</h4>
+                            <p class="institution">Advanced Embedded Systems Workshop</p>
+                            <ul class="responsibilities">
+                                <li><i class="fas fa-check-circle"></i> Gained hands-on experience with STM32 microcontrollers</li>
+                                <li><i class="fas fa-check-circle"></i> Developed real-time systems and RTOS applications</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-aos="fade-up">
+                        <div class="timeline-date">2024 - Present</div>
+                        <div class="timeline-content">
+                            <h4>Project Developer</h4>
+                            <p class="institution">Personal & Academic Projects</p>
+                            <ul class="responsibilities">
+                                <li><i class="fas fa-check-circle"></i> Developed multiple IoT and embedded systems projects</li>
+                                <li><i class="fas fa-check-circle"></i> Participated in project fairs and competitions</li>
+                                <li><i class="fas fa-check-circle"></i> Continuously learning new technologies in electronics</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Future Goals -->
+            <div class="subsection" data-aos="fade-up">
+                <h3 class="subsection-title">
+                    <i class="fas fa-bullseye"></i> Future Goals
+                </h3>
+                <div class="future-goals">
+                    <div class="goal-card" data-aos="fade-up">
+                        <div class="goal-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <div class="goal-content">
+                            <h4>Power Electronics Enhancement</h4>
+                            <p>Develop more efficient power conversion systems and explore renewable energy applications in power electronics.</p>
+                        </div>
+                    </div>
+                    <div class="goal-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="goal-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <div class="goal-content">
+                            <h4>Machine Learning Projects</h4>
+                            <p>Implement ML algorithms for predictive maintenance in electronic systems and smart energy management.</p>
+                        </div>
+                    </div>
+                    <div class="goal-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="goal-icon">
+                            <i class="fas fa-project-diagram"></i>
+                        </div>
+                        <div class="goal-content">
+                            <h4>ML + Electronics Integration</h4>
+                            <p>Create innovative solutions combining machine learning with embedded systems for smarter IoT devices.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="title-icon"><i class="fas fa-code"></i></span>
+                <span>Technical Skills</span>
+            </h2>
+            
+            <div class="skills-intro" data-aos="fade-up">
+                <p>Through academic projects, research work, and professional experience, I've developed a diverse skill set that combines hardware and software expertise:</p>
+            </div>
+            
+            <div class="skills-tabs" data-aos="fade-up">
+                <div class="tabs-header">
+                    <button class="tab-btn active" data-tab="hardware">
+                        <i class="fas fa-microchip"></i> Hardware
+                    </button>
+                    <button class="tab-btn" data-tab="software">
+                        <i class="fas fa-laptop-code"></i> Software
+                    </button>
+                    <button class="tab-btn" data-tab="tools">
+                        <i class="fas fa-tools"></i> Tools
+                    </button>
+                    <button class="tab-btn" data-tab="soft-skills">
+                        <i class="fas fa-users"></i> Soft Skills
+                    </button>
+                </div>
+                
+                <div class="tab-content active" id="hardware">
+                    <div class="skills-grid">
+                        <div class="skill-card" data-aos="fade-up">
+                            <div class="skill-icon">
+                                <i class="fas fa-microchip"></i>
+                            </div>
+                            <h4>Embedded Systems</h4>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%"></div>
+                                <span class="skill-percent">90%</span>
+                            </div>
+                            <p>Arduino, ESP32, STM32, Raspberry Pi, PIC Microcontrollers</p>
+                        </div>
+                        
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+                            <div class="skill-icon">
+                                <i class="fas fa-bolt"></i>
+                            </div>
+                            <h4>Power Electronics</h4>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%"></div>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                            <p>Converters, Inverters, SMPS, Power Factor Correction, Voltage Protection</p>
+                        </div>
+                        
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
+                            <div class="skill-icon">
+                                <i class="fas fa-wifi"></i>
+                            </div>
+                            <h4>IoT Development</h4>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 80%"></div>
+                                <span class="skill-percent">80%</span>
+                            </div>
+                            <p>WiFi, BLE, MQTT, Node-RED, ThingSpeak, Sensor Networks</p>
+                        </div>
+                        
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="300">
+                            <div class="skill-icon">
+                                <i class="fas fa-project-diagram"></i>
+                            </div>
+                            <h4>Circuit Design</h4>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 75%"></div>
+                                <span class="skill-percent">75%</span>
+                            </div>
+                            <p>Analog/Digital Circuits, PCB Design, Signal Processing</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tab-content" id="software">
+                    <div class="skills-grid">
+                        <div class="skill-card" data-aos="fade-up">
+                            <div class="skill-icon">
+                                <i class="devicon-c-plain"></i>
+                            </div>
+                            <h4>C Programming</h4>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 95%"></div>
+                                <span class="skill-percent">95%</span>
+                            </div>
+                            <p>Embedded C, Microcontroller Programming, Data Structures</p>
+                        </div>
+                        
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+                            <div class="skill-icon">
+                                <i class="devicon-python-plain"></i>
+                            </div>
+                            <h4>Python</h4>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%"></div>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                            <p>Data Analysis, Automation, Scripting, IoT Applications</p>
+                        </div>
+                        
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
+                            <div class="skill-icon">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <h4>Machine Learning</h4>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 70%"></div>
+                                <span class="skill-percent">70%</span>
+                            </div>
+                            <p>Scikit-learn, TensorFlow Basics, Predictive Models</p>
+                        </div>
+                        
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="300">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <h4>Data Analysis</h4>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 75%"></div>
+                                <span class="skill-percent">75%</span>
+                            </div>
+                            <p>Pandas, NumPy, Matplotlib, IoT Data Processing</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tab-content" id="tools">
+                    <div class="skills-grid">
+                        <div class="skill-card" data-aos="fade-up">
+                            <div class="skill-icon">
+                                <i class="fas fa-project-diagram"></i>
+                            </div>
+                            <h4>Proteus</h4>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%"></div>
+                                <span class="skill-percent">90%</span>
+                            </div>
+                            <p>Circuit Design, Simulation, PCB Layout, Schematic Capture</p>
+                        </div>
+                        
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+                            <div class="skill-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <h4>MATLAB/Simulink</h4>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%"></div>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                            <p>System Modeling, Simulation, Data Analysis</p>
+                        </div>
+                        
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
+                            <div class="skill-icon">
+                                <i class="fas fa-cube"></i>
+                            </div>
+                            <h4>3D Modeling</h4>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 70%"></div>
+                                <span class="skill-percent">70%</span>
+                            </div>
+                            <p>Fusion 360, 3D Printing, Enclosure Design</p>
+                        </div>
+                        
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="300">
+                            <div class="skill-icon">
+                                <i class="fas fa-cloud"></i>
+                            </div>
+                            <h4>IoT Platforms</h4>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 80%"></div>
+                                <span class="skill-percent">80%</span>
+                            </div>
+                            <p>Blynk, ThingSpeak, Firebase, MQTT Brokers</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tab-content" id="soft-skills">
+                    <div class="skills-grid">
+                        <div class="skill-card" data-aos="fade-up">
+                            <div class="skill-icon">
+                                <i class="fas fa-comments"></i>
+                            </div>
+                            <h4>Communication</h4>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%"></div>
+                                <span class="skill-percent">90%</span>
+                            </div>
+                            <p>Technical Writing, Presentations, Team Collaboration</p>
+                        </div>
+                        
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+                            <div class="skill-icon">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <h4>Problem Solving</h4>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 95%"></div>
+                                <span class="skill-percent">95%</span>
+                            </div>
+                            <p>Analytical Thinking, Debugging, Innovative Solutions</p>
+                        </div>
+                        
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
+                            <div class="skill-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <h4>Leadership</h4>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%"></div>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                            <p>Project Management, Team Coordination, Mentoring</p>
+                        </div>
+                        
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="300">
+                            <div class="skill-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <h4>Time Management</h4>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%"></div>
+                                <span class="skill-percent">90%</span>
+                            </div>
+                            <p>Task Prioritization, Deadline Oriented, Efficient Workflow</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="languages" data-aos="fade-up">
+                <h3 class="subsection-title"><i class="fas fa-language"></i> Languages</h3>
+                <div class="language-container">
+                    <div class="language-item">
+                        <div class="language-info">
+                            <span class="language-name">Bengali</span>
+                            <span class="language-level">Native</span>
+                        </div>
+                        <div class="language-proficiency">
+                            <div class="proficiency-dot filled"></div>
+                            <div class="proficiency-dot filled"></div>
+                            <div class="proficiency-dot filled"></div>
+                            <div class="proficiency-dot filled"></div>
+                            <div class="proficiency-dot filled"></div>
+                        </div>
+                    </div>
+                    <div class="language-item">
+                        <div class="language-info">
+                            <span class="language-name">English</span>
+                            <span class="language-level">Fluent</span>
+                        </div>
+                        <div class="language-proficiency">
+                            <div class="proficiency-dot filled"></div>
+                            <div class="proficiency-dot filled"></div>
+                            <div class="proficiency-dot filled"></div>
+                            <div class="proficiency-dot filled"></div>
+                            <div class="proficiency-dot"></div>
+                        </div>
+                    </div>
+                    <div class="language-item">
+                        <div class="language-info">
+                            <span class="language-name">Hindi</span>
+                            <span class="language-level">Conversational</span>
+                        </div>
+                        <div class="language-proficiency">
+                            <div class="proficiency-dot filled"></div>
+                            <div class="proficiency-dot filled"></div>
+                            <div class="proficiency-dot filled"></div>
+                            <div class="proficiency-dot"></div>
+                            <div class="proficiency-dot"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="title-icon"><i class="fas fa-project-diagram"></i></span>
+                <span>Featured Projects</span>
+            </h2>
+
+            <div class="projects-filter" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="iot">IoT</button>
+                <button class="filter-btn" data-filter="embedded">Embedded</button>
+                <button class="filter-btn" data-filter="power">Power Electronics</button>
+                <button class="filter-btn" data-filter="ml">Machine Learning</button>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Project 1 - Under & Over Voltage Protection -->
+                <div class="project-card" data-category="power embedded" data-aos="fade-up">
+                    <div class="project-image">
+                        <img src="photo_3_2024-12-04_01-07-46.jpg" alt="Under & Over Voltage Protection System" loading="lazy">
+                        <div class="project-tags">
+                            <span class="tag power">Power Electronics</span>
+                            <span class="tag embedded">Embedded</span>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="Under&Over" class="project-preview"><i class="fas fa-eye"></i> Preview</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header">
+                            <h3>Under & Over Voltage Protection System</h3>
+                            <div class="project-links">
+                                <a href="#" class="project-link" data-tooltip="Circuit Design"><i class="fas fa-project-diagram"></i></a>
+                                <a href="#" class="project-link" data-tooltip="Demo Video"><i class="fas fa-video"></i></a>
+                            </div>
+                        </div>
+                        <p>Designed a microcontroller-based system that protects appliances from voltage fluctuations by disconnecting the load when voltage goes beyond safe limits (under-voltage and over-voltage protection).</p>
+                        <ul class="project-tech">
+                            <li>Arduino</li>
+                            <li>Voltage Sensor</li>
+                            <li>Relay Module</li>
+                            <li>LCD Display</li>
+                            <li>Proteus Simulation</li>
+                        </ul>
+                        <div class="project-footer">
+                            <span class="project-date">Completed: March 2023</span>
+                            <a href="#" class="project-details">View Details <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 - IoT Energy Meter -->
+                <div class="project-card" data-category="iot embedded power" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <img src="photo_2024-12-09_19-27-06.jpg" alt="IoT based Energy Meter" loading="lazy">
+                        <div class="project-tags">
+                            <span class="tag iot">IoT</span>
+                            <span class="tag embedded">Embedded</span>
+                            <span class="tag power">Power Electronics</span>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="IOT" class="project-preview"><i class="fas fa-eye"></i> Preview</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header">
+                            <h3>IoT-based Energy Meter including Power Factor Measurement, Voltage Protection & Power Factor Correction. </h3>
+                            <div class="project-links">
+                                <a href="#" class="project-link" data-tooltip="Project Report"><i class="fas fa-file-pdf"></i></a>
+                                <a href="#" class="project-link" data-tooltip="Demo Video"><i class="fas fa-video"></i></a>
+                            </div>
+                        </div>
+                        <p>Developed a comprehensive energy monitoring system that measures voltage, current, power consumption like power factor and phase angle, and implements automatic power factor correction. The system provides real-time data through a web interface and mobile app.</p>
+                        <ul class="project-tech">
+                            <li>ESP32</li>
+                            <li>ACS712</li>
+                            <li>PFC Circuit</li>
+                            <li>Voltage Protection</li>
+                            <li>Blynk IoT</li>
+                        </ul>
+                        <div class="project-footer">
+                            <span class="project-date">Completed: December 2023</span>
+                            <a href="#" class="project-details">View Details <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 - ML Project -->
+                <div class="project-card" data-category="ml" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <img src="Screenshot 2025-03-30 025923.png" alt="ML Lasso Regression" loading="lazy">
+                        <div class="project-tags">
+                            <span class="tag ml">Machine Learning</span>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="ML" class="project-preview"><i class="fas fa-eye"></i> Preview</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header">
+                            <h3>Lasso Regression & Prediction System</h3>
+                            <div class="project-links">
+                                <a href="#" class="project-link" data-tooltip="Code Samples"><i class="fas fa-code"></i></a>
+                                <a href="#" class="project-link" data-tooltip="Report"><i class="fas fa-file-alt"></i></a>
+                            </div>
+                        </div>
+                        <p>Implemented Lasso regression for feature selection and prediction modeling. The system analyzes datasets, selects important features, and makes predictions with regularization to prevent overfitting.</p>
+                        <ul class="project-tech">
+                            <li>Python</li>
+                            <li>Scikit-learn</li>
+                            <li>Pandas</li>
+                            <li>Matplotlib</li>
+                            <li>Data Analysis</li>
+                        </ul>
+                        <div class="project-footer">
+                            <span class="project-date">Completed: November 2023</span>
+                            <a href="#" class="project-details">View Details <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 4 - Project Fair -->
+                <div class="project-card" data-category="embedded power" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-image">
+                        <img src="Screenshot 2025-03-30 032527.png" alt="Proteus Simulation of Voltage Protection System" loading="lazy">
+                        <div class="project-tags">
+                            <span class="tag embedded">Embedded</span>
+                            <span class="tag power">Power Systems</span>
+                            <span class="tag iot">Energy Meter</span>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="Screenshot 2025-03-30 032527.png" class="project-preview"><i class="fas fa-eye"></i> View Demo</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header">
+                            <h3>Under/Over Voltage Protection with Energy Meter</h3>
+                            <div class="project-links">
+                                <a href="voltage_protection_schematic.pdf" class="project-link" data-tooltip="Schematic PDF"><i class="fas fa-file-pdf"></i></a>
+                                <a href="energy_meter_proteus_file.zip" class="project-link" data-tooltip="Proteus Files"><i class="fas fa-download"></i></a>
+                            </div>
+                        </div>
+                        <p>Designed and simulated a complete protection system that automatically disconnects loads when voltage exceeds safe limits (under 180V or over 240V) with integrated energy monitoring capabilities. Implemented in Proteus with Arduino simulation.</p>
+                        <ul class="project-tech">
+                            <li>Proteus Simulation</li>
+                            <li>Voltage Sensing</li>
+                            <li>Relay Control</li>
+                            <li>Energy Monitoring</li>
+                            <li>LCD Display</li>
+                        </ul>
+                        <div class="project-footer">
+                            <span class="project-date">Completed: March 2024</span>
+                            <a href="#voltage-protection-details" class="project-details">View Details <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="view-more" data-aos="fade-up">
+                <a href="#" class="btn-primary">
+                    <i class="fas fa-plus"></i> View More Projects
+                    <span class="project-count">(8+ completed)</span>
+                </a>
+            </div>
+            
+            <!-- Project Showcase Carousel -->
+            <div class="project-showcase" data-aos="fade-up">
+                <h3 class="showcase-title">Project Showcase</h3>
+                <div class="showcase-container">
+                    <div class="showcase-slide active">
+                        <div class="showcase-video">
+                            <video controls>
+                                <source src="video_2024-11-28_02-24-48.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="showcase-caption">
+                            <h4>Under & Over Voltage Protection Demo</h4>
+                            <p>Demonstration of the voltage protection system showing automatic disconnection when voltage goes beyond safe limits.</p>
+                        </div>
+                    </div>
+                    <div class="showcase-slide">
+                        <div class="showcase-video">
+                            <video controls>
+                                <source src="video_20250206_130505.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="showcase-caption">
+                            <h4>IoT Energy Meter Demo</h4>
+                            <p>Demonstration of the IoT-based energy monitoring system showing real-time power consumption data and power factor correction functionality.</p>
+                        </div>
+                    </div>
+                    <div class="showcase-slide">
+                        <div class="showcase-video">
+                            <video controls>
+                                <source src="Screen Recording 2025-03-30 025030.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="showcase-caption">
+                            <h4>ML Prediction System Demo</h4>
+                            <p>Demonstration of the Lasso regression model making predictions on test data with feature selection visualization.</p>
+                        </div>
+                    </div>
+                    <div class="showcase-slide">
+                        <div class="showcase-video">
+                            <video controls>
+                                <source src="video_20250213_121707.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="showcase-caption">
+                            <h4>Project Fair Presentation</h4>
+                            <p>Video from the project fair showing the setup and demonstration of my IoT Energy Meter project to visitors and judges.</p>
+                        </div>
+                    </div>
+                    <div class="showcase-controls">
+                        <button class="showcase-prev"><i class="fas fa-chevron-left"></i></button>
+                        <div class="showcase-dots">
+                            <span class="dot active"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                        </div>
+                        <button class="showcase-next"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Section -->
+    <section id="research" class="section research">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="title-icon"><i class="fas fa-book-open"></i></span>
+                <span>Research & Publications</span>
+            </h2>
+            
+            <div class="research-intro" data-aos="fade-up">
+                <p>These publications are not my own work, but they reflect my areas of interest. I have included them to showcase the kind of research and topics I am passionate about. They are presented here solely for the purpose of enhancing my portfolio.</p>
+            </div>
+            
+            <div class="research-tabs" data-aos="fade-up">
+                <div class="tabs-header">
+                    <button class="tab-btn active" data-tab="papers">
+                        <i class="fas fa-file-alt"></i> Research Papers
+                    </button>
+                    <button class="tab-btn" data-tab="articles">
+                        <i class="fas fa-newspaper"></i> Articles
+                    </button>
+                </div>
+                
+                <div class="tab-content active" id="papers">
+                    <div class="publications">
+                        <div class="publication-item" data-aos="fade-up">
+                            <div class="pub-icon">
+                                <i class="fas fa-file-pdf"></i>
+                            </div>
+                            <div class="pub-details">
+                                <h4>"IoT-based Smart Energy Monitoring with Power Factor Correction"</h4>
+                                <p class="pub-meta">RUET Journal of Engineering | December 2023 | Lead Author</p>
+                                <p>This paper presents the design and implementation of an IoT-based energy monitoring system with automatic power factor correction and voltage protection capabilities.</p>
+                                <a href="#" class="pub-link"><i class="fas fa-external-link-alt"></i> View Publication</a>
+                            </div>
+                        </div>
+                        
+                        <div class="publication-item" data-aos="fade-up" data-aos-delay="100">
+                            <div class="pub-icon">
+                                <i class="fas fa-file-pdf"></i>
+                            </div>
+                            <div class="pub-details">
+                                <h4>"Machine Learning Approaches for Energy Consumption Prediction in Embedded Systems"</h4>
+                                <p class="pub-meta">IEEE ICECT 2023 | March 2023 | Co-author</p>
+                                <p>Exploring the application of machine learning algorithms to predict energy consumption patterns in IoT devices for optimized power management.</p>
+                                <a href="#" class="pub-link"><i class="fas fa-external-link-alt"></i> View Publication</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tab-content" id="articles">
+                    <div class="articles-grid">
+                        <div class="article-card" data-aos="fade-up">
+                            <div class="article-image">
+                                <img src="Screenshot 2025-03-30 133131.png" alt="Power Electronics" loading="lazy">
+                            </div>
+                            <div class="article-content">
+                                <h3>Advancements in Power Factor Correction Techniques</h3>
+                                <p class="article-meta">Technical Article | January 2024</p>
+                                <p>Exploring modern approaches to power factor correction in switched-mode power supplies and their impact on energy efficiency.</p>
+                                <a href="#" class="article-link">Read Article <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        
+                        <div class="article-card" data-aos="fade-up" data-aos-delay="100">
+                            <div class="article-image">
+                                <img src="Screenshot 2025-03-30 133241.png" alt="IoT Security" loading="lazy">
+                            </div>
+                            <div class="article-content">
+                                <h3>Securing IoT Devices in Power Systems</h3>
+                                <p class="article-meta">Technical Article | October 2023</p>
+                                <p>Best practices for implementing security measures in IoT-based power monitoring and control systems.</p>
+                                <a href="#" class="article-link">Read Article <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="section achievements">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="title-icon"><i class="fas fa-trophy"></i></span>
+                <span>Achievements & Certificates</span>
+            </h2>
+            
+            <div class="achievements-grid">
+                <!-- 1st Achievement - Competition Award -->
+                <div class="achievement-card" data-aos="fade-up">
+                    <div class="achievement-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>1st Runner Up - ESPectrum 1.0: Industry Meets Innovation</h3>
+                        <p>Achieved the prestigious title of <strong>1st Runner-up</strong> in GizanTech presents ESPectrum 1.0 competition, powered by TechnoWren. Our project was recognized for its innovation at this event jointly organized by RUET IoT Club and Department of EEE, RUET.</p>
+                        <span class="achievement-date">Team: Power Boys (ETE, RUET)</span>
+                        <a href="#" class="achievement-link">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            
+                
+            
+                <!-- 3rd Achievement - Class Representative -->
+                <div class="achievement-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="achievement-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>Class Representative Certificate</h3>
+                        <p>Recognized for serving as Class Representative for the ETE Department at RUET during 2022-2023 academic year.</p>
+                        <span class="achievement-date">December 2023</span>
+                        <a href="#" class="achievement-link">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            
+                <!-- 2nd Achievement - Teaching Experience -->
+                <div class="achievement-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="achievement-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>Tuition Teaching Experience</h3>
+                        <p>Successfully supported myself through university by teaching <strong>Science and Mathematics</strong> to school and college students in Rajshahi. Managed full-time studies while maintaining a consistent tutoring schedule, helping students achieve academic success.</p>
+                        <span class="achievement-date">2019-2023 | Rajshahi, Bangladesh</span>
+                        <a href="#" class="achievement-link">Student Testimonials <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <!-- 4th Achievement - Workshop -->
+                <div class="achievement-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="achievement-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>Embedded Systems Workshop</h3>
+                        <p>Completed advanced embedded systems workshop with focus on STM32 microcontrollers and real-time applications.</p>
+                        <span class="achievement-date">August 2023</span>
+                        <a href="#" class="achievement-link">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Testimonials 
+            <div class="testimonials" data-aos="fade-up">
+                <h3 class="subsection-title"><i class="fas fa-quote-left"></i> Testimonials</h3>
+                <div class="testimonial-slider">
+                    <div class="testimonial active">
+                        <div class="testimonial-content">
+                            <p>"Durjoy's project on IoT-based energy monitoring demonstrated exceptional integration of power electronics with modern IoT technologies. His understanding of power factor correction was particularly impressive."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="professor.jpg" alt="Dr. Rahman" loading="lazy">
+                            <div class="author-info">
+                                <h4>Dr. Mohammad Rahman</h4>
+                                <p>Professor, ETE Department, RUET</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <p>"As Class Representative, Durjoy showed excellent leadership skills and was always proactive in addressing student concerns while maintaining good relations with faculty members."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="classmate.jpg" alt="Classmate" loading="lazy">
+                            <div class="author-info">
+                                <h4>Ahmed Khan</h4>
+                                <p>Classmate, RUET ETE 2021</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-controls">
+                        <button class="testimonial-prev"><i class="fas fa-chevron-left"></i></button>
+                        <div class="testimonial-dots">
+                            <span class="dot active"></span>
+                            <span class="dot"></span>
+                        </div>
+                        <button class="testimonial-next"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>-->
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="title-icon"><i class="fas fa-envelope"></i></span>
+                <span>Get In Touch</span>
+            </h2>
+            
+            <div class="contact-container">
+                <div class="contact-info" data-aos="fade-right">
+                    <h3>Contact Information</h3>
+                    <p>Feel free to reach out for collaborations, research opportunities, or just to say hello! I'm always open to discussing new projects and ideas in electronics and IoT.</p>
+                    
+                    <ul class="contact-details">
+                        <li>
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span>Email</span>
+                                <a href="mailto:ddurjoy867@gmail.com">ddurjoy867@gmail.com</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span>Phone</span>
+                                <a href="tel:+8801780619801">+880 1780619801</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span>Location</span>
+                                <span>Birampur, Dinajpur, Bangladesh</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span>Availability</span>
+                                <span>Monday - Friday: 9am - 5pm</span>
+                            </div>
+                        </li>
+                    </ul>
+                    
+                    <div class="contact-social">
+                        <h4>Connect With Me</h4>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/durjoy.das.3950178" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/durjoy_o_das" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="https://x.com/DurjoyD31720430" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="https://t.me/yourusername" target="_blank" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form" data-aos="fade-left" netlify>
+                    <div class="form-header">
+                        <h3>Send Me a Message</h3>
+                        <p>Have a question or want to work together? Fill out the form below and I'll get back to you as soon as possible.</p>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="What's this about?">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                    
+                    <div class="form-footer">
+                        <p><i class="fas fa-lock"></i> Your information is secure and will never be shared.</p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>Durjoy Das</h3>
+                    <p>Electronics and Telecommunication Engineering student specializing in embedded systems, power electronics, and IoT applications.</p>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/durjoy.das.3950178" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/durjoy_o_das" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://x.com/DurjoyD31720430" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://t.me/yourusername" target="_blank"><i class="fab fa-telegram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#about"><i class="fas fa-chevron-right"></i> About</a></li>
+                        <li><a href="#skills"><i class="fas fa-chevron-right"></i> Skills</a></li>
+                        <li><a href="#projects"><i class="fas fa-chevron-right"></i> Projects</a></li>
+                        <li><a href="#research"><i class="fas fa-chevron-right"></i> Research</a></li>
+                        <li><a href="#contact"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Expertise Areas</h3>
+                    <ul>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Power Electronics</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Embedded Systems</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> IoT Development</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Machine Learning</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Circuit Design</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3>Contact Info</h3>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> ddurjoy867@gmail.com</li>
+                        <li><i class="fas fa-phone"></i> +880 1780619801</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Birampur, Dinajpur, Bangladesh</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> Durjoy Das. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" title="Go to top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="Portfolio.js"></script>
+</body>
+</html>
